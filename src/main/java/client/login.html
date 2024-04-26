@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/loginManager.js" charset="utf-8" defer></script>
+    <script src="js/utils.js" charset="utf-8" defer></script>
+    <title>Test Application</title>
+</head>
+<body>
+<h1>Task Manager</h1>
+
+<div >
+    <div >
+        <form class="login" action="#">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <input id="loginButton"type="button" value="Login">
+            <input id="registerButton" type="button" value="register">
+            <p class="error" id="errorLog"></p>
+        </form>
+    </div>
+    <div>
+        <p id="messageBox"></p>
+    </div>
+</div>
+</body>
+</html>
